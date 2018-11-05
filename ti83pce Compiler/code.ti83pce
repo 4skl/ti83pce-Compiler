@@ -1,0 +1,4 @@
+byte i = 5;
+short j = +65;
+short k = j;
+string str = "hello"; 
