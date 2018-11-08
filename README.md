@@ -69,3 +69,23 @@ The differents words of value are calculated by a function.
 | qword | `var_qword_name_3: .dw <high word of value>` <br> `var_dword_name_2: .dw <medium high word of value>` <br> `var_dword_name_1: .dw <medium low word of value>` <br> `var_dword_name_0: .dw <low word of value>` |
 | float | `var_float_name_1: .dw 0` <br> `var_float_name_0: .dw 0` |
 | double | `var_double_name_3: .dw 0` <br> `var_double_name_2: .dw 0` <br> `var_double_name_1: .dw 0` <br> `var_double_name_0: .dw 0` |
+
+### Basics functions declaration
+
+#### Addition
+
+To add a to b and store it in c use `c = a + b`.
+
+| Type | Assembly Code |
+|-|-|
+| byte | `ld a, (var_byte_a)` <br> `ld b (var_byte_b) ` <br> `add a,b` <br> `ld (var_byte_c), a` |
+| sbyte | `` |
+| word | `` |
+| sword | `` |
+| dword | `` |
+| sdword | `` |
+| qword | `` |
+| float | `` |
+| double | `` |
+
+
