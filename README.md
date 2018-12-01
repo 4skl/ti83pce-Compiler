@@ -6,6 +6,10 @@ A simple compiler for ti83pce
 
 This software compile the *"ti83pce"* code into a `.8xp`, file which is executable by a *Texas Instruments 83 Premium CE calculator*, the progrtam should be executed by using the `Asm()` command.
 
+## Development status :
+
+Basics is actualy not finished, using of byte and word is active but arithmetics not ok.
+Basic development is not finished, so, this readme is not contractual.
 
 ## Running instructions :
 
