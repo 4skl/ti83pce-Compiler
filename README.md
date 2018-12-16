@@ -84,13 +84,13 @@ To add a to b and store it in c use `c = a + b`.
 
 | Type | Assembly Code |
 |-|-|
-| byte | `ld a, (var_byte_a)` <br> `ld b (var_byte_b) ` <br> `add a,b` <br> `ld (var_byte_c), a` |
-| sbyte | `ld a, (var_byte_a)` <br> `ld b (var_byte_b) ` <br> `add a,b` <br> `ld (var_byte_c), a` |
-| word | `ld hl, (var_byte_a)` <br> `ld bc (var_byte_b) ` <br> `add hl,bc` <br> `ld (var_byte_c), hl` |
-| sword | `ld hl, (var_byte_a)` <br> `ld bc (var_byte_b) ` <br> `add hl,bc` <br> `ld (var_byte_c), hl` |
-| dword | `ld hl, (var_dword_a_0)` <br> `ld bc (var_dword_b_0) ` <br> `add hl,bc` <br> `ld (var_dword_c_0), hl` <br> `ld hl, (var_dword_a_1)` <br> `ld bc (var_dword_b_1) ` <br> `adc hl,bc` <br> `ld (var_dword_c_1), hl` |
-| sdword | `ld hl, (var_dword_a_0)` <br> `ld bc (var_dword_b_0) ` <br> `add hl,bc` <br> `ld (var_dword_c_0), hl` <br> `ld hl, (var_dword_a_1)` <br> `ld bc (var_dword_b_1) ` <br> `adc hl,bc` <br> `ld (var_dword_c_1), hl` |
-| qword | `ld hl, (var_dword_a_0)` <br> `ld bc (var_dword_b_0) ` <br> `add hl,bc` <br> `ld (var_dword_c_0), hl` <br> `ld hl, (var_dword_a_1)` <br> `ld bc (var_dword_b_1) ` <br> `adc hl,bc` <br> `ld (var_dword_c_1), hl` <br> `ld hl, (var_dword_a_2)` <br> `ld bc (var_dword_b_2) ` <br> `adc hl,bc` <br> `ld (var_dword_c_2), hl` <br> `ld hl, (var_dword_a_3)` <br> `ld bc (var_dword_b_3) ` <br> `adc hl,bc` <br> `ld (var_dword_c_3), hl` |
+| byte | `ld a, (var_byte_a)` <br> `ld b, (var_byte_b) ` <br> `add a,b` <br> `ld (var_byte_c), a` |
+| sbyte | `ld a, (var_byte_a)` <br> `ld b, (var_byte_b) ` <br> `add a,b` <br> `ld (var_byte_c), a` |
+| word | `ld hl, (var_byte_a)` <br> `ld bc, (var_byte_b) ` <br> `add hl,bc` <br> `ld (var_byte_c), hl` |
+| sword | `ld hl, (var_byte_a)` <br> `ld bc, (var_byte_b) ` <br> `add hl,bc` <br> `ld (var_byte_c), hl` |
+| dword | `ld hl, (var_dword_a_0)` <br> `ld bc, (var_dword_b_0) ` <br> `add hl,bc` <br> `ld (var_dword_c_0), hl` <br> `ld hl, (var_dword_a_1)` <br> `ld bc, (var_dword_b_1) ` <br> `adc hl,bc` <br> `ld (var_dword_c_1), hl` |
+| sdword | `ld hl, (var_dword_a_0)` <br> `ld bc, (var_dword_b_0) ` <br> `add hl,bc` <br> `ld (var_dword_c_0), hl` <br> `ld hl, (var_dword_a_1)` <br> `ld bc, (var_dword_b_1) ` <br> `adc hl,bc` <br> `ld (var_dword_c_1), hl` |
+| qword | `ld hl, (var_dword_a_0)` <br> `ld bc, (var_dword_b_0) ` <br> `add hl,bc` <br> `ld (var_dword_c_0), hl` <br> `ld hl, (var_dword_a_1)` <br> `ld bc, (var_dword_b_1) ` <br> `adc hl,bc` <br> `ld (var_dword_c_1), hl` <br> `ld hl, (var_dword_a_2)` <br> `ld bc, (var_dword_b_2) ` <br> `adc hl,bc` <br> `ld (var_dword_c_2), hl` <br> `ld hl, (var_dword_a_3)` <br> `ld bc, (var_dword_b_3) ` <br> `adc hl,bc` <br> `ld (var_dword_c_3), hl` |
 | float |  |
 | double |  |
 
